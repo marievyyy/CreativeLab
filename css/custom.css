@@ -1,0 +1,700 @@
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    outline: 0;
+    overflow-x: hidden;
+    background-color: #fff;
+}
+
+/* Sroll Bar */
+
+::-webkit-scrollbar {
+  width:5px;
+}
+
+::webkit-scrollbar-track {
+  -webkit-box-shadow:inset 0 0 6px rgba(0,0,0,0.3);
+}
+
+::-webkit-scrollbar-thumb {
+  background:rgba(142,139,130,0.8);
+  -webkit-box-shadow:inset 0 0 6px rgba(0,0,0,0.5);
+}
+
+::-webkit-scrollbar-thumb:window-inactive {
+  background:rgba(142,139,130,0.4);
+}
+
+/* Navigation */
+
+.navbar {
+    margin-bottom: 0;
+}
+
+.navbar-default {
+    background: #ececec;
+    margin-bottom: 0;
+}
+
+.navbar-header a.navbar-brand img {
+   max-width: 80px;
+}
+
+.navbar-default .navbar-nav > li > a {
+    height: 60px;
+}
+
+.navbar-default .navbar-nav > .active >  a, 
+.navbar-default .navbar-nav > .active > a:active, 
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    background-color: #758142;
+    color: #fff;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    color: #8E8B82;
+    font-family: 'Oswald';
+    font-weight: 300;
+    font-size: 1.25em;
+    text-transform: uppercase;
+}
+
+.collapse ul li a:hover {
+    color: #000;
+    background: transparent;    
+}
+
+.collapse ul li a button {
+    color: #fff;
+    font-family: 'Oswald';
+    font-weight: 300;
+    font-size: 0.8em;
+    text-transform: uppercase;
+    background: #758142;
+    border: 0;
+    outline: none;
+    padding: 3%;
+    width: 100px;
+}
+
+.collapse ul li a button:hover {
+    -webkit-box-shadow: 0px 3px 7px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 3px 7px -1px rgba(0,0,0,0.75);
+    box-shadow: 0px 3px 7px -1px rgba(0,0,0,0.75);
+}
+
+
+/* End of Navigation */
+
+#wrapper-home {
+    height: 100vh;
+    width: 100%;
+    background-color: #ececec; 
+}
+
+#home h1.title {
+    color: #000;
+    font-family: 'Fjalla One', sans-serif;
+    text-transform: uppercase;
+    font-size: 5em;
+    letter-spacing: 10px;
+    position: absolute;
+    top: 30vh;
+    left: 20%;
+    text-align: right;
+}
+
+#home h1.title::after {
+    content: "";
+    border-bottom: 2px solid #000;
+    width: 120px;
+    position: absolute;
+    top: 30vh;
+    left: 290px;
+}
+
+#home .box {
+    width: 440px;
+    height: 300px;
+    background-color: #fff;
+    position: absolute;
+    top: 23vh;
+    -webkit-box-shadow: 0px 9px 24px -1px rgba(176,176,176,1);
+    -moz-box-shadow: 0px 9px 24px -1px rgba(176,176,176,1);
+    box-shadow: 0px 9px 24px -1px rgba(176,176,176,1);
+}
+
+#home h1.title-desc {
+    font-family: 'Oswald';
+    font-weight: 300;
+    font-size: 20px;
+    text-align: left;
+    position: absolute;
+    top: 30vh;
+    line-height: 30px;
+    width: 500px;
+}
+
+h1.sub-title {
+    font-family: 'Fjalla One', sans-serif;
+    text-transform: uppercase;
+    font-size: 4em;
+    letter-spacing: 8px;
+}
+
+hr {
+    height: 2px;
+    width: 5%;
+    border: 0 none;
+    background-color: #000;
+    text-align: center; 
+    margin: 0 auto;
+    margin-bottom: 2%;
+}
+
+
+/* Who We Are */
+
+.wrapper-who {
+    height: 120vh;
+    width: 100%;
+    background:url('../img/who.png');
+    background-size: cover;
+    background-position: right center;
+    -webkit-clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 87%);
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 87%);
+}
+
+.wrapper-who h1 {
+    text-align: right;
+    position: absolute;
+    top: 18vh;
+    left: 10%;
+}
+
+.wrapper-who h1::after {
+    content: "";
+    border-bottom: 2px solid #000;
+    width: 60px;
+    position: absolute;
+    top: 25vh;
+    left: 65%;
+}
+
+.wrapper-who h2 {
+    font-family: 'Oswald';
+    font-weight: 300;
+    font-size: 18px;
+    text-align: left;
+    position: absolute;
+    width: 500px;
+    top: 50vh;
+    left: 21%;
+    line-height: 30px;
+}
+
+
+.wrapper-who button.who-button {
+    color: #fff;
+    font-family: 'Oswald';
+    font-weight: 300;
+    font-size: 0.9em;
+    text-transform: uppercase;
+    background: #758142;
+    border: 0;
+    outline: none;
+    width: 100px;
+    height: 30px;
+    position: absolute;
+    top: 90vh;
+    left: 21%;
+}
+
+.wrapper-who button.who-button:hover {
+    -webkit-box-shadow: 0px 3px 7px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 3px 7px -1px rgba(0,0,0,0.75);
+    box-shadow: 0px 3px 7px -1px rgba(0,0,0,0.75);    
+}
+
+/* What We Do */ 
+
+.wrapper-do {
+    padding-bottom: 15%;
+    padding-top: 10vh;
+}
+
+.wrapper-do h1.do {
+    text-align: left;
+    position: absolute;
+    top: 0;
+    right: 15%;
+}
+
+.wrapper-do h1.do::before {
+    content: '01';
+    color: #fff;
+    font-family: 'Oswald';
+    font-size: 250px;
+    font-weight: 300;
+    position: absolute;
+    top: -45vh;
+    right: 500%;
+}
+
+.wrapper-do h1.do::after {
+    content: "";
+    border-bottom: 2px solid #000;
+    width: 60px;
+    position: absolute;
+    top: 25vh;
+    left: 2%;
+}
+
+.wrapper-do h2 {
+    font-family: 'Oswald';
+    font-weight: 300;
+    font-size: 18px;
+    text-align: right;
+    position: absolute;
+    width: 700px;
+    top: 30vh;
+    left: 16%;
+    line-height: 30px;
+}
+
+.wrapper-do .image {
+    margin-top: 33%;
+}
+
+.wrapper-do .img-1 {
+    max-width: 100%;
+    max-height: 100%;
+    position: relative;
+}
+
+.wrapper-do .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(117,129,66,0.6);
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .5s ease;
+}
+
+.wrapper-do .img-1:hover .overlay {
+    width: 100%;
+}
+
+.wrapper-do .text {
+    white-space: nowrap; 
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    font-family: 'Oswald';
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.wrapper-do img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.wrapper-do img:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
+}
+
+.wrapper-do span::before {
+    content: "02";
+    color: #ebebeb;
+    font-family: 'Oswald';
+    font-size: 250px;
+    font-weight: 300;
+    position: absolute;
+    top: -4vh;
+    right: -5%;
+}
+
+/* What We've Done */
+.wrapper-done {
+    height: 140vh;
+    width: 100%;
+    background:url('../img/done.png');
+    background-size: cover;
+    background-position: 75% 25%;
+    -webkit-clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 87%);
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 87%);
+}
+
+.wrapper-done h1.done {
+    position: absolute;
+    top: 20vh;
+    text-align: right;
+}
+
+.wrapper-done h1.done::after {
+    content: "";
+    border-bottom: 2px solid #000;
+    width: 60px;
+    position: absolute;
+    top: 25vh;
+    right: 2%;
+}
+
+.wrapper-done h2 {
+    font-family: 'Oswald';
+    font-weight: 300;
+    font-size: 18px;
+    text-align: left;
+    position: absolute;
+    width: 300px;
+    top: 50vh;
+    left: 24%;
+    line-height: 30px;
+}
+
+.wrapper-done button.done-button {
+    color: #fff;
+    font-family: 'Oswald';
+    font-weight: 300;
+    font-size: 0.9em;
+    text-transform: uppercase;
+    background: #758142;
+    border: 0;
+    outline: none;
+    width: 100px;
+    height: 30px;
+    position: absolute;
+    top: 90vh;
+    left: 24%;
+}
+
+.wrapper-done button.done-button:hover {
+    -webkit-box-shadow: 0px 3px 7px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 3px 7px -1px rgba(0,0,0,0.75);
+    box-shadow: 0px 3px 7px -1px rgba(0,0,0,0.75);    
+}
+
+/* What They've Said About Us */
+
+.wrapper-said {
+    width: 100%;
+    margin-bottom: 6%;
+}
+
+.wrapper-said .logos {
+    margin-top: -50vh;
+}
+
+.wrapper-said .logo-container {
+    display: flex;
+    height: 170px;
+    width: 190px;
+    background-color: #fff;
+    -webkit-box-shadow: 3px 10px 24px 0px rgba(194,194,194,1);
+    -moz-box-shadow: 3px 10px 24px 0px rgba(194,194,194,1);
+    box-shadow: 3px 10px 24px 0px rgba(194,194,194,1);
+}
+
+.wrapper-said .logo-container img {
+    margin: auto;
+    cursor: pointer;
+}
+
+.wrapper-said .upper {
+    margin-bottom: 20px;
+}
+
+.wrapper-said .left {
+    margin-left: -20px;
+}
+
+.wrapper-said .right {
+    margin-left: 15px;
+}
+
+.wrapper-said span.three::before {
+    content: "03";
+    color: #fff;
+    font-family: 'Oswald';
+    font-size: 250px;
+    font-weight: 300;
+    position: absolute;
+    top: -60vh;
+    left: -6%;
+}
+
+.wrapper-said h1.said {
+    text-align: center;
+    margin-top: 10%;
+}
+
+.wrapper-said .quote {
+    background-color: #fefefe;
+    margin: auto;
+    margin-top: 5%;
+    width: 650px;
+    -webkit-box-shadow: 3px 10px 24px 0px rgba(194,194,194,1);
+    -moz-box-shadow: 3px 10px 24px 0px rgba(194,194,194,1);
+    box-shadow: 3px 10px 24px 0px rgba(194,194,194,1);
+    padding: 40px 45px;
+}
+
+.wrapper-said .quote h3 {
+    font-family: 'Oswald';
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.wrapper-said h3 span.person {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.wrapper-said span.four::before {
+    content: "04";
+    color: #f8f8f8;
+    font-family: 'Oswald';
+    font-size: 250px;
+    font-weight: 300;
+    position: absolute;
+    top: -24vh;
+    right: -5%;
+    z-index: 2;
+}
+
+/* testimonials carousel */
+
+#quote-carousel {
+    padding: 0 10px 30px 10px;
+    margin-top: 60px;
+}
+
+#quote-carousel .carousel-control {
+    background: none;
+    color: #CACACA;
+    font-size: 2.3em;
+    text-shadow: none;
+    margin-top: 30px;
+}
+
+#quote-carousel .carousel-indicators {
+    position: relative;
+    right: 50%;
+    top: auto;
+    bottom: 0px;
+    margin-top: 20px;
+    margin-right: -19px;
+}
+
+#quote-carousel .carousel-indicators li {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    opacity: 0.4;
+    overflow: hidden;
+    transition: all .4s ease-in;
+    vertical-align: middle;
+}
+
+#quote-carousel .carousel-indicators .active {
+    width: 100px;
+    height: 100px;
+    opacity: 1;
+    transition: all .2s;
+}
+
+.item blockquote {
+    border-left: none;
+    margin: 0;
+    font-family: "Oswald";
+    font-weight: 300;
+}
+
+.item blockquote p:before {
+    content: "\f10d";
+    font-family: 'Fontawesome';
+    float: left;
+    margin-right: 10px;
+}
+
+
+/* Featured in Media */
+
+.wrapper-media {
+    height: 120vh;
+    width: 100%;
+    background:url('../img/media.png');
+    background-size: cover;
+    background-position: 85% 15%;
+    -webkit-clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 87%);
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 87%);
+}
+
+.wrapper-media h1.media {
+    margin-top: 20vh;
+    text-align: center;
+}
+
+.wrapper-media .media-logo {
+    background-color: #fefefe;
+    width: 800px;
+    height: 250px;
+    padding: 2% 4% 3% 4%;
+    -webkit-box-shadow: 3px 10px 24px 0px rgba(194,194,194,1);
+    -moz-box-shadow: 3px 10px 24px 0px rgba(194,194,194,1);
+    box-shadow: 3px 10px 24px 0px rgba(194,194,194,1);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    margin-top: 15%;
+}
+
+.wrapper-media .media-logo img {
+    max-width: 230px;
+}
+
+.wrapper-media span.five::before {
+    content: "05";
+    color: #758142;
+    font-family: 'Oswald';
+    font-size: 250px;
+    font-weight: 300;
+    position: absolute;
+    top: 35vh;
+    left: -7%;
+    z-index: 2;
+}
+
+/* Contact Us */
+.wrapper-contact {
+    height: 100vh;
+    width: 100%;
+    background-color: #758142;
+    -webkit-clip-path: polygon(0 0, 100% 13%, 100% 100%, 0 100%);
+    clip-path: polygon(0 0, 100% 13%, 100% 100%, 0 100%);
+    margin-top: -16vh;
+}
+
+.wrapper-contact h1.contact {
+    margin-top: 12%;
+    text-align: center;
+    color: #fff;
+}
+
+.wrapper-contact .center {
+    padding: 2em;
+}
+
+.wrapper-contact .center .upper {
+    margin-right: 1%;
+}
+
+.wrapper-contact input {
+    width: 80%;
+    padding: 1.5%;
+    line-height: 2em;
+    margin-bottom: 3%;
+    font-family: 'Fjalla One';
+    font-weight: 300;
+    float: right;
+}
+
+.wrapper-contact textarea {
+    resize: none;
+    width: 80%;
+    height: 112px;
+    padding: 1.5%;
+    line-height: 2em;
+    font-family: 'Fjalla One';
+    font-weight: 300;
+}
+
+.wrapper-contact input:focus,
+.wrapper-contact textarea:focus {
+    background: #000;
+    color: #fff;
+    outline: 0;
+    border: #000;
+}
+
+.wrapper-contact button {
+    color: #758142;
+    font-family: 'Oswald';
+    font-weight: 300;
+    font-size: 16px;
+    text-transform: uppercase;
+    background: #000;
+    border: 0;
+    outline: none;
+    width: 200px;
+    height: 32px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+
+.wrapper-contact button:hover {
+    -webkit-box-shadow: 0px 3px 7px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 3px 7px -1px rgba(0,0,0,0.75);
+    box-shadow: 0px 3px 7px -1px rgba(0,0,0,0.75);    
+}
+
+/* FOOTER */
+
+#footer {
+  background-color: #181810;
+  padding: 2em;
+  text-align: center;
+}
+
+#footer .logos img {
+    max-width: 60px;
+    margin: 0 3%;
+    margin-bottom: 1%;
+    cursor: pointer;
+}
+
+.last .bottom {
+    background: #000;
+    color: #8E8B82;
+    font-family: "Fjalla One";
+    font-size: 0.8em;
+    vertical-align: center;
+    width: 100%;
+    padding-top: 1%;
+    text-align: center;
+}
+
+
+
+
+/* END FOOTER */

@@ -1,0 +1,583 @@
+/* -------------- Media Queries -------------- */
+
+
+@media(max-width:1440px) {
+
+}
+
+@media(max-width:1366px) {
+
+}
+
+@media(max-width:1280px) {
+
+    .wrapper-do h1.do::before {
+        top: -60vh;
+    }
+
+    .wrapper-said span.three::before {
+        top: -65vh;
+    }
+
+}
+
+@media(max-width:1080px) {
+
+    #home h1.title {
+        left: 6%;
+    }
+
+    .wrapper-who h1 {
+        left: 7%;
+    }
+
+    .wrapper-do h1.do {
+        right: 1%;
+    } 
+
+    .wrapper-do h1.do::before {
+        top: -55vh;
+    }
+
+    .wrapper-do .image {
+        margin-top: 38%;
+    }
+
+    .wrapper-do span::before {
+        top: -8vh;
+    }
+
+    .wrapper-done h1.done {
+        left: -3%;
+    }
+
+    .wrapper-said .logos {
+        margin-top: -45vh;
+    }
+
+    .wrapper-said .left {
+        margin-left: -80px;
+        margin-right: 3.5%;
+    }
+
+    .wrapper-said span.three::before {
+        top: -68vh;
+    }
+
+    .wrapper-said span.four::before {
+        top: -30vh;
+    }
+
+    .wrapper-media span.five::before {
+        top: 35vh;
+    }
+
+    .wrapper-contact textarea {
+        height: 101px;
+    }
+
+    .wrapper-contact button {
+        margin-top: 4%;
+    }
+}
+
+@media(max-width:991px) {
+
+    #home h1.title {
+        font-size: 4em;
+    }
+
+    #home .box {
+        width: 80%;
+    }
+
+    #home h1.title::after {
+        top: 34vh;
+        left: 230px;
+    }
+
+    #home h1.title-desc {
+        max-width: 94%;
+        margin-left: 7%;
+    }
+
+    .wrapper-who h1 {
+        left: 3.3%;
+    }
+
+    .wrapper-do h1.do {
+        right: -10%;
+    } 
+
+    .wrapper-do h1.do::before {
+        top: -55vh;
+        right: 450%;
+    }
+
+    .wrapper-do h2 {
+        left: 2%;
+    }
+
+    .wrapper-do .image {
+        margin-top: 50%;
+        padding-left: 9%;
+    }
+
+    .wrapper-do .img-1 {
+        max-width: 80% !important;
+    }
+
+    .wrapper-do .img-1:hover .overlay {
+        width: 100%;
+    }
+
+    .wrapper-do .col-sm-6 {
+        margin-top: 3%;
+    }
+
+    .wrapper-do span::before {
+        top: -10vh;
+        right: -21vh;
+    }
+
+    .wrapper-done h1.done {
+        left: -8%;
+    }
+
+    .wrapper-done h2 {
+        text-align: right;
+        margin-right: 0;
+        margin-left: -28.5%;
+        right: 0;
+
+    }
+
+    .wrapper-said .logos {
+        margin-top: -45vh;
+    }
+
+    .wrapper-said .left {
+        margin-left: -90px;
+        margin-right: 9%;
+    }
+
+    .wrapper-done button.done-button {
+        left: 22%;
+    }
+
+    .wrapper-said span.three::before {
+        top: -68vh;
+        left: -20%;
+    }
+
+    .wrapper-said span.four::before {
+        top: -30vh;
+        right: -21vh;
+    }
+
+    .wrapper-media span.five::before {
+        top: 35vh;
+        left: -22vh;
+    }
+
+    .wrapper-contact input {
+        margin-right: 10%;
+    }
+
+    .wrapper-contact textarea {
+        margin-left: 10%;
+        width: 79.3%;
+    }
+
+    .wrapper-contact button {
+        margin-top: 1%;
+    }
+
+    .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+        text-align: center;
+  }
+
+    .navbar-default .navbar-toggle {
+        border-radius: 0;
+    }
+
+    .navbar-default .navbar-toggle .icon-bar {
+        background: #758142;
+    }
+
+    .collapse ul li a:hover {
+        color: #fff;
+        background: #758142;
+    }
+
+}
+
+@media (max-width: 767px) {
+
+    .navbar-header a.navbar-brand img {
+        max-width: 50%;
+        margin-top: -15%;
+    }
+
+    #home .box {
+        max-width: 40%;
+        left: 10vh;
+    }
+
+    #home h1.title {
+        font-size: 2.8em;
+    }
+
+    #home h1.title::after {
+        top: 20vh;
+        left: 27vh;
+    }
+
+    #home h1.title-desc {
+        width: 40%;
+        left: 60vh;
+        margin-top: 2%;
+        font-size: 1.2em;
+    }
+
+    .wrapper-who h1 {
+        text-align: right;
+        right: 14vh;
+    }
+
+    .wrapper-who h1::after {
+        left: 98vh;
+    }
+
+    .wrapper-who h2 {
+        text-align: right;
+    }
+
+    .wrapper-who button.who-button {
+        left: 74%;
+    }
+
+    .wrapper-do h1.do {
+        right: 3%;
+    }
+
+    .wrapper-do h1.do::before {
+        top: -55vh;
+        right: 320%;
+    }
+
+    .wrapper-do h2 {
+        max-width: 80%;
+        padding-left: 6%;
+    }
+
+    .wrapper-do .image {
+        margin-top: 60%;
+        padding-left: 10%;
+    }
+    .wrapper-do span::before {
+        top: -12vh;
+        right: 1vh;
+    }
+
+    .wrapper-done h1.done {
+        text-align: left;
+        left: 6%;
+    }
+
+    .wrapper-done h2 {
+        text-align: left;
+        margin-left: -17%;
+    }
+
+    .wrapper-done h1.done::after {
+        left: 1%;
+    }
+
+    .wrapper-done button.done-button {
+        left: 7%;
+    }
+
+    .wrapper-said .logos {
+        margin-right: 14%;
+    }
+
+    .wrapper-said .logo-container {
+        height: 130px;
+        width: 145px;
+    }
+
+    .wrapper-said .left {
+        margin-left: -50px;
+        margin-right: 4%;
+    }
+
+    .wrapper-said span.three::before {
+        top: -60vh;
+        left: -3%;
+    }
+
+    .wrapper-said h1.said {
+        font-size: 3em;
+        width: 80%;
+        margin-left: 11%;
+    }
+
+    .carousel {
+        width: 80%;
+        left: 10%;   
+    }
+
+    .fa-chevron-right:before {
+        margin-right: -80px;
+    }
+
+    .wrapper-said span.four::before {
+        right: -2vh;
+    }
+
+    .wrapper-media .media-logo {
+        margin-top: 22%;
+        width: 80%;
+        padding-top: 5%;
+        padding-right: 12%;
+    }
+
+    .wrapper-media .media-logo img {
+        max-width: 190px;
+    }
+
+    .wrapper-media span.five::before {
+        top: 40vh;
+        left: -3vh;
+    }
+
+    .wrapper-contact h1.contact {
+        font-size: 2em;
+    }
+
+    .wrapper-contact .center {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    .wrapper-contact input,
+    .wrapper-contact textarea {
+        font-size: 0.9em;
+    }
+
+    #footer .logos img {
+        max-width: 40px;
+    }
+
+}
+
+@media(max-width:640px) {
+
+    #home .box {
+        max-width: 35%;
+    }
+
+    #home h1.title-desc {
+        left: 50vh;
+    }
+
+    .wrapper-who h1 {
+        right: 11vh;
+    }
+
+    .wrapper-who h1::after {
+        left: 80vh;
+    }
+
+    .wrapper-who h2 {
+        margin-left: -12%;
+    }
+
+    .wrapper-do {
+        padding-bottom: 23%;
+    }
+
+    .wrapper-do h1.do {
+        text-align: right;
+        right: 15%;
+    }
+
+    .wrapper-do h1.do::after {
+        left: 55%;
+    } 
+
+    .wrapper-do .image {
+        margin-top: 75%;
+        padding-right: 5%;
+    }
+
+    .wrapper-do span::before {
+        right: -1vh;
+    }
+
+    .wrapper-said {
+        height: 100vh;
+    }
+
+    .wrapper-said span.three::before {
+        top: -52vh;
+    }
+
+    .wrapper-said .logo-container {
+        height: 120px;
+        width: 125px;
+    }
+
+    .wrapper-said .left {
+        margin-left: -50px;
+        margin-right: 4%;
+    }
+
+    .carousel {
+        position: relative !important;
+    } 
+
+    #quote-carousel .carousel-indicators .active {
+        width: 80px;
+        height: 80px;
+    }
+
+    .wrapper-said span.four::before {
+        top: 15vh;
+        content: "";
+    }
+
+    .wrapper-media .media-logo {
+        margin-top: 22%;
+        width: 80%;
+        padding-top: 10%;
+        padding-right: 3%;
+    }
+
+    .wrapper-media .media-logo img {
+        max-width: 120px;
+    }
+}
+
+@media (max-width: 480px) {
+
+    #home h1.title-desc {
+        left: 100vh;
+    }
+
+    .wrapper-who h1::after {
+        border: 0;
+    }
+
+    .wrapper-who h1 {
+        font-size: 2.5em;
+        margin-top: 10%;
+    }
+
+    .wrapper-do h1.do {
+        font-size: 2.5em;
+        top: 8%;
+    }
+
+    .wrapper-do h1.do::after {
+        border: 0;
+    }
+
+    .wrapper-who h2,
+    .wrapper-do h2 {
+        font-size: 1em;
+        width: 80%;
+    }
+
+    .wrapper-who h2, .wrapper-do h2 {
+        margin-top: -8%;
+    }
+
+    .wrapper-who button.who-button {
+        left: 68%;
+    }
+
+    .wrapper-do .image {
+        margin-top: 95%;
+    }
+
+    .wrapper-do span::before {
+        content: "";    
+    }
+
+    .wrapper-done h1.done {
+        font-size: 2.5em;
+    }
+
+    .wrapper-done h1.done::after {
+        border: 0;
+    }
+
+    .wrapper-done h2 {
+        font-size: 1em;
+        margin-top: -8%;
+    }
+
+    .wrapper-done button.done-button {
+        margin-top: -25%;
+    }
+
+    .wrapper-said span.three::before {
+        content: "";
+    }
+
+    .wrapper-said .logos {
+        width: 100%;
+        margin-left: 100%;
+    }
+
+    .wrapper-said h1.said,
+    .wrapper-media h1.media {
+        font-size: 2.5em;
+    }
+
+    .carousel p {
+        font-size: 0.8em;
+    }
+
+    #quote-carousel .carousel-indicators .active {
+        width: 60px;
+        height: 60px;
+    }
+
+    .wrapper-media .media-logo {
+        margin-top: 40%;
+        max-height: 180px;
+    }
+
+    .wrapper-media .media-logo img {
+        max-width: 90px;
+    }
+
+    .wrapper-media span.five::before {
+        content: "";
+    }
+
+    .wrapper-contact h1.contact {
+        font-size: 2.5em;
+        margin-top: 18%;
+    }
+
+}
+
+@media (max-width: 320px) {
+
+    #wrapper-home {
+        height: 40vh;
+    }
+
+    .wrapper-who button.who-button {
+        left: 63%;
+    }
+
+
+}
+
+
+
